@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Вертикальная ориентация */
+  align-items: center; /* Центрирование по горизонтали */
+}
+
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black;
+  margin: 10px 0; /* Отступы только сверху и снизу */
+  transition: background 0.3s;
+}
